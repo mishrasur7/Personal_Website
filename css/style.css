@@ -1,0 +1,14 @@
+
+body {
+    background-color: #f6f6f6;
+    margin-top: 25px;
+}
+
+.nav ul li {
+    display: inline;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
