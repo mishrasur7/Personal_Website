@@ -1,9 +1,8 @@
-
 * {
     background-color: #f6f6f6;
     margin-top: 0;
     padding: 0;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 500;
 }
 
@@ -16,16 +15,21 @@
     height: 70px;
     width: 70px;
     float: left;
-    margin: 30px 100px;
+    margin: 20px 150px; 
     cursor: progress;
 }
 
-.nav_right li{
+
+
+.nav_right li {
     display: inline-block;
     margin: 30px;
     list-style: none;
 }
 
+.nav_right ul{
+    margin-right: 150px;
+}
 
 
 .nav_right li a {
@@ -40,15 +44,21 @@
     display: none;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1200px) {
 
     .nav_logo_pic {
-        margin: auto
+        margin-top: auto;
+        margin-left: 25px;
     }
 
     .nav_right span {
         display: block;
-        margin: 10px;
+        margin-top: 10px;
+        margin-right: 25px;
+    }
+
+    .nav_right ul{
+        margin-right: 25px;
     }
 
     .nav_right li {
@@ -60,5 +70,3 @@
     }
 
 }
-
-
