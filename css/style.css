@@ -1,20 +1,47 @@
 
 * {
     background-color: #f6f6f6;
-    margin-top: 10px;
+    margin-top: 0;
+    padding: 0;
 }
 
 .nav {
-    display: flex;
+    background-color: red;
 }
 
-.nav li {
+.nav_right {
+    text-align: right;
+}
+
+.nav_logo_pic {
+    height: 45px;
+    float: left;
+    margin-left: 20px;
+}
+
+.nav_right li{
+    display: inline-block;
+    margin: 20px;
     list-style: none;
 }
 
-.nav li a {
-    text-decoration: none;
+.nav_right span {
+    margin: 0 20px;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
 }
 
+@media only screen and (max-width: 700px) {
+
+    .nav_right span {
+        display: block;
+    }
+
+    .nav_right li {
+        display: block;
+    }
+
+}
 
 
