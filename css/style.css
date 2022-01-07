@@ -7,34 +7,34 @@
     font-weight: 500;
 }
 
-.nav {
-    background-color: red;
-}
 
 .nav_right {
     text-align: right;
 }
 
 .nav_logo_pic {
-    height: 45px;
+    height: 70px;
+    width: 70px;
     float: left;
-    margin-left: 20px;
+    margin: 30px 100px;
+    cursor: progress;
 }
 
 .nav_right li{
     display: inline-block;
-    margin: 20px;
+    margin: 30px;
     list-style: none;
 }
+
+
 
 .nav_right li a {
     text-decoration: none;
     color: #379683;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .nav_right span {
-    margin: 0 20px;
     font-size: 28px;
     cursor: pointer;
     display: none;
@@ -42,12 +42,21 @@
 
 @media only screen and (max-width: 700px) {
 
+    .nav_logo_pic {
+        margin: auto
+    }
+
     .nav_right span {
         display: block;
+        margin: 10px;
     }
 
     .nav_right li {
         display: block;
+    }
+
+    .nav_right ul {
+        display: none;
     }
 
 }
