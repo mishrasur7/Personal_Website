@@ -15,7 +15,8 @@
     height: 70px;
     width: 70px;
     float: left;
-    margin: 20px 150px; 
+    margin-top: 20px;
+    margin-left: 150px;
     cursor: progress;
 }
 
@@ -27,7 +28,7 @@
     list-style: none;
 }
 
-.nav_right ul{
+.nav_right ul {
     margin-right: 150px;
 }
 
@@ -48,6 +49,8 @@
 
 .main {
     display: flex;
+    gap: 150px;
+    margin-left: 160px;
 }
 
 .main div {
@@ -55,9 +58,16 @@
 }
 
 .main h1 {
-    font-family: "Yesteryear",cursive;
-    font-weight: 700;
-    font-size: 4rem;
+    font-family: 'The Nautigal', cursive;
+    font-size: 4.2rem;
+    line-height: 50px;
+}
+
+.main h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #7eb62f;
+    margin: 1rem 0;
 }
 
 .main img {
@@ -65,9 +75,11 @@
     width: 300px;
 }
 
-/* css codes for responsive designs*/ 
+/* css codes for responsive designs*/
 
 @media only screen and (max-width: 1200px) {
+
+    /*css for nav section*/
 
     .nav_logo_pic {
         margin-top: auto;
@@ -80,7 +92,7 @@
         margin-right: 25px;
     }
 
-    .nav_right ul{
+    .nav_right ul {
         margin-right: 25px;
     }
 
@@ -91,5 +103,12 @@
     .nav_right ul {
         display: none;
     }
+}
 
+ /*css for main section*/
+@media only screen and (max-width: 1200px) {
+    .main {
+        display: flex;
+        gap: 100px;
+    }
 }
