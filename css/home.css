@@ -44,6 +44,27 @@
     display: none;
 }
 
+/* css codes for main section*/
+
+.main {
+    display: flex;
+}
+
+.main div {
+    margin: 50px;
+}
+
+.main h1 {
+    font-family: "Yesteryear",cursive;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.main img {
+    height: 300px;
+    width: 300px;
+}
+
 /* css codes for responsive designs*/ 
 
 @media only screen and (max-width: 1200px) {
