@@ -37,6 +37,11 @@
     text-decoration: none;
     color: #379683;
     font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav_right li a:hover {
+    color: #6ECB63; 
 }
 
 .nav_right span {
@@ -53,8 +58,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    align-content: space-between;
-    
+    align-content: space-between;    
 }
 
 .main div {
@@ -80,13 +84,51 @@
 }
 
 .main p.home_intro {
-    line-height: 1.9rem;
+    line-height: 1.8rem;
     text-align: left;
 }
 
-.main p.home_intro span {
+.main section.home_intro span {
     font-weight: bold;
 }
+
+.main p.btn {
+    height: 20px;
+    width: 100px;
+    background-color: #2FDD92;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn i.fas {
+    background-color: #2FDD92;
+}
+
+/*css for connection section*/ 
+
+.connection {
+    margin-left: 100px;
+}
+
+.connection i.far {
+    color: #EA5C2B; 
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.connection i.fa-linkedin {
+    color: #0a66a2;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.connection i.fa-github {
+    font-size: 25px;
+    cursor: pointer;
+}
+
 
 /* css codes for responsive designs*/
 
