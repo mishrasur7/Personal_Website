@@ -49,8 +49,12 @@
 
 .main {
     display: flex;
-    gap: 150px;
-    margin-left: 160px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    
 }
 
 .main div {
@@ -71,8 +75,17 @@
 }
 
 .main img {
-    height: 300px;
-    width: 300px;
+    height: 70%;
+    width: 70%;
+}
+
+.main p.home_intro {
+    line-height: 1.9rem;
+    text-align: left;
+}
+
+.main p.home_intro span {
+    font-weight: bold;
 }
 
 /* css codes for responsive designs*/
@@ -108,7 +121,7 @@
  /*css for main section*/
 @media only screen and (max-width: 1200px) {
     .main {
-        display: flex;
-        gap: 100px;
+       align-content: space-around;
+       flex: auto;
     }
 }
