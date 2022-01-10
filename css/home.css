@@ -6,7 +6,6 @@
 body {
     background-color: #f6f6f6;
     font-family: "Montserrat", sans-serif;
-    height: 100vh;
 
 }
 
@@ -15,6 +14,13 @@ body {
     width: 100%;
 }
 
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+   height: 100px;
+   background-color: #f6f6f6;
+}
 
 .nav_right {
     text-align: right;
@@ -23,6 +29,7 @@ body {
 .nav_logo_pic {
     height: 70px;
     width: 70px;
+    position: ;
     float: left;
     margin-top: 20px;
     margin-left: 150px;
@@ -59,6 +66,8 @@ body {
     display: none;
 }
 
+/*codes for sections*/ 
+
 /* css codes for main section*/
 
 .main {
@@ -67,11 +76,14 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    align-content: space-between;    
+    align-content: space-between;   
+    margin-top: 100px; 
 }
 
 .main div {
-    margin: 50px;
+   margin-top: 50px;
+   margin-bottom: 20px;
+   flex-basis: 410px;
 }
 
 .main h1 {
@@ -97,7 +109,7 @@ body {
     text-align: left;
 }
 
-.main section.home_intro span {
+.main p.home_intro span {
     font-weight: bold;
 }
 
@@ -118,7 +130,7 @@ body {
 /*css for connection section*/ 
 
 .connection {
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 .connection i.far {
