@@ -163,8 +163,13 @@ body {
 
 /*css for footer*/
 footer {
+    margin-bottom: 5px;
     text-align: center;
     font-size: 13px;
+}
+
+footer div.about {
+    margin-top: 100vh;
 }
 
 
