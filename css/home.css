@@ -6,7 +6,6 @@
 body {
     background-color: #f6f6f6;
     font-family: "Montserrat", sans-serif;
-
 }
 
 .container {
@@ -18,8 +17,8 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-   height: 100px;
-   background-color: #f6f6f6;
+    height: 100px;
+    background-color: #f6f6f6;
 }
 
 .nav_right {
@@ -29,7 +28,6 @@ body {
 .nav_logo_pic {
     height: 70px;
     width: 70px;
-    position: ;
     float: left;
     margin-top: 20px;
     margin-left: 150px;
@@ -57,7 +55,7 @@ body {
 }
 
 .nav_right li a:hover {
-    color: #6ECB63; 
+    color: #6ECB63;
 }
 
 .nav_right span {
@@ -70,20 +68,21 @@ body {
 
 /* css codes for main section*/
 
+
 .main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    align-content: space-between;   
-    margin-top: 100px; 
+    align-content: space-between;
+    margin-top: 120px;
 }
 
 .main div {
-   margin-top: 50px;
-   margin-bottom: 20px;
-   flex-basis: 410px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    flex-basis: 410px;
 }
 
 .main h1 {
@@ -127,15 +126,15 @@ body {
     background-color: #2FDD92;
 }
 
-/*css for connection section*/ 
+/*css for connection section*/
 
 .connection {
     margin-left: 150px;
-    
+
 }
 
 .connection i.far {
-    color: #EA5C2B; 
+    color: #EA5C2B;
     font-size: 25px;
     cursor: pointer;
 }
@@ -153,19 +152,18 @@ body {
 
 /* css for about section*/
 
-#about {
+.sections {
     margin-top: 150px;
     margin-left: 150px;
 }
 
-#about h1 {
+.sections h1 {
     font-family: 'The Nautigal', cursive;
     font-size: 4.2rem;
 }
 
 /*css for footer*/
 footer {
-    margin-top: 100px;
     text-align: center;
     font-size: 13px;
 }
@@ -210,10 +208,8 @@ footer {
         margin-top: 100vh;
     }
 
-   
+
 }
 
- /*css for section*/
-@media only screen and (max-width: 1200px) {
-   
-}
+/*css for section*/
+@media only screen and (max-width: 1200px) {}
