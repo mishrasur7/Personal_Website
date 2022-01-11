@@ -8,10 +8,7 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-.container {
-    height: 100%;
-    width: 100%;
-}
+/* css for navigation bar and logo*/
 
 .nav {
     position: fixed;
@@ -65,7 +62,7 @@ body {
 
 
 
-/* css codes for main section*/
+/* css codes for home page*/
 
 
 .main {
@@ -149,17 +146,6 @@ body {
     cursor: pointer;
 }
 
-/* css for about section*/
-
-.sections {
-    margin-top: 150px;
-    margin-left: 150px;
-}
-
-.sections h1 {
-    font-family: 'The Nautigal', cursive;
-    font-size: 4.2rem;
-}
 
 /*css for footer*/
 footer {
@@ -168,9 +154,13 @@ footer {
     font-size: 13px;
 }
 
-footer div.about {
-    margin-top: 100vh;
+
+/* css for about page*/
+.about_main {
+    margin: 150px;
 }
+
+
 
 
 /* css codes for responsive designs*/
