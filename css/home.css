@@ -157,7 +157,39 @@ footer {
 
 /* css for about page*/
 .about_main {
-    margin: 150px;
+    margin: 150px 150px 40px 150px;
+    
+}
+
+.about_main h1 {
+    font-family: 'The Nautigal', cursive;
+    font-size: 4.2rem;
+    line-height: 50px;
+}
+
+.about_main p {
+    line-height: 1.8rem;
+    text-align: left;
+    width: 100%;
+}
+
+.skills {
+    margin: 0 0 40px 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills div {
+   margin-right: 290px;
+    
+}
+
+.skills div h2 {
+    
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #7eb62f;
+    
 }
 
 
