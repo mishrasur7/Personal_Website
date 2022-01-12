@@ -193,11 +193,11 @@ footer {
     
 }
 
-.skills div div.technical_skills {
+.skills div div.skill_set {
     display: flex;
 }
 
-.skills div div.technical_skills section {
+.skills div div.skill_set section {
     margin-right: 30px;
 }
 
