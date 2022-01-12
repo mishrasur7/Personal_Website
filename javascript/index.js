@@ -30,6 +30,20 @@ function clickMenuAbout() {
     } 
 }
 
+function clickMenuEducation() {
+    var menu = document.getElementById("menu"); 
+    var education = document.getElementById("education"); 
+
+
+    if (menu.style.display == "block") {
+        menu.style.display = "none"; 
+        
+    } else {
+        menu.style.display = "block"; 
+        education.style.marginTop = "300px"; 
+    } 
+}
+
 
 
 

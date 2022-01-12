@@ -214,8 +214,13 @@ footer {
     line-height: 1.8rem;
 }
 
-.about_main section div h3.uni {
+.about_main section div h3 a {
+    text-decoration: none;
     color: #113CFC;
+}
+
+.about_main section div h3.uni {
+    
     font-weight: bold;
 }
 
