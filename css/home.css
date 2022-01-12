@@ -174,13 +174,14 @@ footer {
 }
 
 .skills {
-    margin: 0 0 40px 150px;
+    margin: 0 150px 40px 150px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .skills div {
-   margin-right: 270px;
+   
     
 }
 
@@ -192,9 +193,15 @@ footer {
     
 }
 
-.skills div p span {
-    
+.skills div div.technical_skills {
+    display: flex;
 }
+
+.skills div div.technical_skills section {
+    margin-right: 30px;
+}
+
+
 
 
 
