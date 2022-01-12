@@ -1,3 +1,5 @@
+/* function to disable display fóf nav bar and show only the hamburger menu
+to make home page display properly when nav bar is in block display*/
 function clickMenu() {
     var menu = document.getElementById("menu"); 
     var home = document.getElementById("home");
@@ -26,5 +28,7 @@ function clickMenuAbout() {
         about.style.marginTop = "300px"; 
     } 
 }
+
+
 
 
