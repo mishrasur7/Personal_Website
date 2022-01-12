@@ -180,7 +180,7 @@ footer {
 }
 
 .skills div {
-   margin-right: 290px;
+   margin-right: 270px;
     
 }
 
@@ -189,6 +189,10 @@ footer {
     font-size: 1.15rem;
     font-weight: 600;
     color: #7eb62f;
+    
+}
+
+.skills div p span {
     
 }
 
