@@ -15,6 +15,7 @@ function clickMenu() {
     } 
 }
 
+
 function clickMenuAbout() {
     var menu = document.getElementById("menu"); 
     var about = document.getElementById("about"); 
