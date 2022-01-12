@@ -63,10 +63,6 @@ body {
 
 
 /* css codes for home page*/
-
-
-
-
 .main {
     display: flex;
     flex-direction: row;
@@ -201,6 +197,33 @@ footer {
 }
 
 /* css for education page*/
+.about_main section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+.about_main section div:nth-child(1) {
+    flex-basis: 250px;
+    margin-right: 100px;
+}
+
+
+.about_main section div ul li {
+    line-height: 1.8rem;
+}
+
+.about_main section div h3.uni {
+    color: #113CFC;
+    font-weight: bold;
+}
+
+.about_main section div h3.program {
+    color: #7eb62f;
+    font-weight: bold;
+}
+
 
 
 
@@ -254,7 +277,10 @@ footer {
     }
 
     /*css for education page*/
-
+    .about_main section {
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
 
     footer {
         margin-top: 100vh;
