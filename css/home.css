@@ -245,6 +245,11 @@ footer {
     gap: 100px;
 }
 
+.grid_container div img {
+   width: 100%;
+}
+
+
 .grid_container div h3{
     text-align: center;
     color:  #113CFC;
