@@ -239,7 +239,23 @@ footer {
     line-height: 50px;
 }
 
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 100px;
+}
 
+.grid_container div h3{
+    text-align: center;
+    color:  #113CFC;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.grid_container div p {
+    line-height: 1.9rem;
+    text-align: left;
+}
 
 
 
