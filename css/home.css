@@ -230,8 +230,7 @@ footer {
 /* css for projects page*/
 
 .projects_main {
-    max-width: 1000px;
-    margin: auto;
+    margin: 150px 150px 40px 150px;
 }
 
 .projects_main h1 {
@@ -239,6 +238,7 @@ footer {
     font-size: 4.2rem;
     line-height: 50px;
 }
+
 
 
 
