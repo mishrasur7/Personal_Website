@@ -363,6 +363,11 @@ form button {
         flex-direction: column;
     }
 
+    .main h1 {
+        font-size: 3.4rem;
+    line-height: 50px;
+    }
+
    
 
     .main img {
