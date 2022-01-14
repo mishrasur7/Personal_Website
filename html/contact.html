@@ -34,17 +34,26 @@
         <h1>Contact</h1>
         <p>Please use the form below to send your message. Thank you!</p>
         <div class="form_container">
-            <h3>Lets be in touch!</h3>
+            <form>
+                <h3>Lets be in touch!</h3>
+                <input type="text" id="name" placeholder="Your name" required>
+                <input type="email" id="email" placeholder="Email id" required>
+                <input type="text" id="phone" placeholder="Phone number" required>
+                <textarea id="message" rows="5" placeholder="Write your message here!"></textarea>
+                <button type="submit">Submit</button>
+
+            </form>
 
         </div>
     </main>
 
-   
-    
+
+
     <footer>
         <div>&copy; 2022 Designed and developed by Suraj Mishra</div>
     </footer>
 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="../javascript/index.js"></script>
 </body>
 
