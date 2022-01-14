@@ -11,7 +11,7 @@ function clickMenu() {
 
     } else {
         menu.style.display = "block";
-        home.style.marginTop = "250px";
+        home.style.marginTop = "300px";
     }
 }
 
