@@ -15,7 +15,7 @@ function clickMenu() {
     } 
 }
 
-
+/*script for about page*/ 
 function clickMenuAbout() {
     var menu = document.getElementById("menu"); 
     var about = document.getElementById("about"); 
@@ -30,6 +30,7 @@ function clickMenuAbout() {
     } 
 }
 
+/*script for education page*/ 
 function clickMenuEducation() {
     var menu = document.getElementById("menu"); 
     var education = document.getElementById("education"); 
@@ -44,6 +45,7 @@ function clickMenuEducation() {
     } 
 }
 
+/*script for projects page*/ 
 function clickMenuProjects() {
     var menu = document.getElementById("menu"); 
     var projects = document.getElementById("projects"); 
@@ -59,5 +61,6 @@ function clickMenuProjects() {
 }
 
 
+/*script for contact page*/ 
 
 
