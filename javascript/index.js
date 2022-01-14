@@ -44,6 +44,20 @@ function clickMenuEducation() {
     } 
 }
 
+function clickMenuProjects() {
+    var menu = document.getElementById("menu"); 
+    var projects = document.getElementById("projects"); 
+
+
+    if (menu.style.display == "block") {
+        menu.style.display = "none"; 
+        
+    } else {
+        menu.style.display = "block"; 
+        projects.style.marginTop = "300px"; 
+    } 
+}
+
 
 
 

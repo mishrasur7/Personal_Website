@@ -63,6 +63,7 @@ body {
 
 
 /* css codes for home page*/
+
 .main {
     display: flex;
     flex-direction: row;
@@ -316,6 +317,21 @@ footer {
         margin-left: 30px;
         margin-bottom: 30px;
     }
+
+    /* css for projects page*/
+
+    .projects_main {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+
+    .grid_container {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 100px;
+    }
+
 
     footer {
         margin-top: 100vh;
