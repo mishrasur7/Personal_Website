@@ -16,7 +16,7 @@ function clickMenu() {
 }
 
 function clickButton() {
-    alert("Sorry, this is not uploaded yet. Try later :)")
+    alert("Sorry, resume is not uploaded yet. Try later :)")
     var btn = document.getElementById("btn"); 
 
 }

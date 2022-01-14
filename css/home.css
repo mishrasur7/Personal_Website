@@ -263,6 +263,18 @@ footer {
     text-align: left;
 }
 
+/*css for contact page*/
+
+.contact {
+    margin: 150px 150px 40px 150px;
+}
+
+.contact h1 {
+    font-family: 'The Nautigal', cursive;
+    font-size: 4.2rem;
+    line-height: 50px;
+}
+
 
 
 
