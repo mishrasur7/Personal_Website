@@ -15,6 +15,12 @@ function clickMenu() {
     } 
 }
 
+function clickButton() {
+    alert("Sorry, this is not uploaded yet. Try later :)")
+    var btn = document.getElementById("btn"); 
+
+}
+
 /*script for about page*/ 
 function clickMenuAbout() {
     var menu = document.getElementById("menu"); 
