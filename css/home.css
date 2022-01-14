@@ -295,7 +295,7 @@ form {
 }
 
 form h3 {
-   
+   text-align: center;
     margin-bottom: 20px;
     
 }
@@ -391,8 +391,16 @@ form button {
     }
 
 
+    /* css for contact page*/
+    .contact {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+
+
     footer {
-        margin-top: 100vh;
+        margin-top: 20vh;
     }
 
 

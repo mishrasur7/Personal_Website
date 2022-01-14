@@ -34,7 +34,7 @@
         <h1>Contact</h1>
         <p>Please use the form below to send your message. Thank you!</p>
         <div class="form_container">
-            <form>
+            <form onsubmit="sendEmail(); reset(); return false;">
                 <h3>Lets be in touch!</h3>
                 <input type="text" id="name" placeholder="Your name" required>
                 <input type="email" id="email" placeholder="Email id" required>
