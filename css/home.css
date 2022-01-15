@@ -106,7 +106,12 @@ body {
     font-weight: bold;
 }
 
-.main p.btn {
+.main a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
     height: 20px;
     width: 100px;
     background-color: #2FDD92;
@@ -365,10 +370,10 @@ form button {
 
     .main h1 {
         font-size: 3.4rem;
-    line-height: 50px;
+        line-height: 50px;
     }
 
-   
+
 
     .main img {
         height: 70%;

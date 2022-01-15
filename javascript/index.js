@@ -24,11 +24,13 @@ function clickMenu() {
     }
 }
 
+/*
 function clickButton() {
     alert("Sorry, resume is not uploaded yet. Please try later :)")
     var btn = document.getElementById("btn");
 
 }
+*/
 
 /*script for about page*/
 function clickMenuAbout() {
