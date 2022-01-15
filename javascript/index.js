@@ -9,14 +9,23 @@ function clickMenu() {
     if (menu.style.display == "block") {
         menu.style.display = "none";
 
+        if(menu.style.display == "none") {
+            home.style.position = "relative"; 
+            home.style.bottom = "150px";  
+        } 
+        
     } else {
         menu.style.display = "block";
         home.style.marginTop = "300px";
+
+        if(menu.style.display == "block") {
+            home.style.position = "static"; 
+        }
     }
 }
 
 function clickButton() {
-    alert("Sorry, resume is not uploaded yet. Try later :)")
+    alert("Sorry, resume is not uploaded yet. Please try later :)")
     var btn = document.getElementById("btn");
 
 }
@@ -30,9 +39,18 @@ function clickMenuAbout() {
     if (menu.style.display == "block") {
         menu.style.display = "none";
 
+        if(menu.style.display == "none") {
+            about.style.position = "relative"; 
+            about.style.bottom = "150px"; 
+        }
+
     } else {
         menu.style.display = "block";
         about.style.marginTop = "300px";
+
+        if(menu.style.display == "block") {
+            about.style.position = "static"; 
+        }
     }
 }
 
@@ -45,9 +63,18 @@ function clickMenuEducation() {
     if (menu.style.display == "block") {
         menu.style.display = "none";
 
+        if(menu.style.display == "none") {
+            education.style.position = "relative"; 
+            education.style.bottom = "150px"; 
+        } 
+
     } else {
         menu.style.display = "block";
         education.style.marginTop = "300px";
+
+        if(menu.style.display == "block") {
+            education.style.position = "static"; 
+        }
     }
 }
 
@@ -60,9 +87,18 @@ function clickMenuProjects() {
     if (menu.style.display == "block") {
         menu.style.display = "none";
 
+        if(menu.style.display == "none") {
+            projects.style.position = "relative"; 
+            projects.style.bottom = "150px"; 
+        } 
+
     } else {
         menu.style.display = "block";
         projects.style.marginTop = "300px";
+
+        if(menu.style.display == "block") {
+            projects.style.position = "static"; 
+        }
     }
 }
 
@@ -77,9 +113,18 @@ function clickMenuContact() {
     if (menu.style.display == "block") {
         menu.style.display = "none";
 
+        if(menu.style.display == "none") {
+            contact.style.position = "relative"; 
+            contact.style.bottom = "150px"; 
+        } 
+
     } else {
         menu.style.display = "block";
         contact.style.marginTop = "300px";
+
+        if(menu.style.display == "block") {
+            contact.style.position = "static"; 
+        }
     }
 }
 
