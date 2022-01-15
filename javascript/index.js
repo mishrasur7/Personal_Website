@@ -3,7 +3,7 @@ to make home page display properly when nav bar is in block display mode*/
 function clickMenu() {
     var menu = document.getElementById("menu");
     var home = document.getElementById("home");
-    var about = document.getElementById("about");
+
 
 
     if (menu.style.display == "block") {
@@ -92,10 +92,10 @@ function sendEmail() {
         To: 'mishrasur7@gmail.com',
         From: document.getElementById("email").value,
         Subject: "New message",
-        Body: "Name: " + document.getElementById("name").value
-        + "<br> Email: " + document.getElementById("email").value
-        + "<br> Phone number: " + document.getElementById("phone").value
-        + "<br> Message: " + document.getElementById("message").value
+        Body: "Name: " + document.getElementById("name").value +
+            "<br> Email: " + document.getElementById("email").value +
+            "<br> Phone number: " + document.getElementById("phone").value +
+            "<br> Message: " + document.getElementById("message").value
     }).then(
         message => alert("Message sent successfully! Thank you for sending your message " + document.getElementById("name").value + "!")
     );
